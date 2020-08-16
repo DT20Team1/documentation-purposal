@@ -93,18 +93,19 @@ video#bgvideo{
 #myCarousel{
     width: 60%;
     margin: 0 auto;
+    
 }
 .carousel-inner .item img{
-    height: 400px; 
-    margin: 0 auto;
+    height: 400px;  
+     margin: 0 auto;
 }
 
-.carousel-caption{
+/* .carousel-caption{
     position: relative;
     left: auto;
     right: auto;
     height: 200px;
-}
+} */
 
 
 /*Style the pictures and nav-brand for different screens*/
@@ -261,7 +262,8 @@ video#bgvideo{
 iframe {
   display: block;
   margin: 20px auto;
-
+  width: 60%;
+  height: 90vh;
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
   border-radius: 12px;
